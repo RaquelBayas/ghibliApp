@@ -212,7 +212,7 @@ function Film() {
         {galleryImages.length > 0 && (
           <div className="gallery">
             {galleryImages.map((imageUrl, index) => (
-              <img className="filmGallery" key={index} src={imageUrl} alt={`Gallery image ${index}`} />
+              <img className="filmGallery" loading="lazy" key={index} src={imageUrl} alt={`Gallery image ${index}`} />
             ))}
           </div>
         )}
