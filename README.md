@@ -1,30 +1,10 @@
-# React + TypeScript + Vite
+## Ghibli App
+Sencillo proyecto realizado con React + TypeScript + Vite en el que se utiliza una API de terceros sobre las películas del Studio Ghibli (https://ghibliapi.vercel.app/), y la API TMDb para mostrar la galería de imágenes de cada película.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src="https://github.com/RaquelBayas/ghibliApp/assets/31921518/c8adbc8d-21f1-4c8a-a82e-08f4646634a0" width="800">
 
-Currently, two official plugins are available:
+<img src="https://github.com/RaquelBayas/ghibliApp/assets/31921518/36984dcb-4f52-483a-848c-8a747b448ec6" width="800">
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img src="https://github.com/RaquelBayas/ghibliApp/assets/31921518/e394da20-cacc-45e9-b55f-ace66d81d1d0" width="800">
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<img src="https://github.com/RaquelBayas/ghibliApp/assets/31921518/d71c20b0-9c52-435d-b9c2-0d5815e92503" width="800">
