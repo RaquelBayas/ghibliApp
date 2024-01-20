@@ -1,6 +1,5 @@
 import { ChangeEvent, useEffect, useState } from "react";
 import "./Species.css";
-import Card from "../../components/card/Card";
 
 interface Species {
   id: string;
