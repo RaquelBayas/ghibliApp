@@ -1,0 +1,23 @@
+.container_films {
+    background-color: var(--secondary);
+    width: 100%;
+    min-height: 100vh;
+    height: max-content;
+}
+
+.films {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: auto 3rem;
+}
+
+.container_films a {
+    color: black;
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}

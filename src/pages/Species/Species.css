@@ -1,0 +1,48 @@
+.container_data {
+    height: max-content;
+    background-color: #BBC998;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 1rem;    
+}
+
+.wrapper_data {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 15px; 
+    padding: 3rem 2rem;
+}
+
+.div_data {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: fit-content;
+    background-color: #92a268;
+    box-shadow: 1px 1px 2px 3px #485130;
+    color: black;
+    border-radius: 7px;
+    padding: 1rem 2rem;
+    margin-bottom: 25px;
+
+}
+
+.div_data h1 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 430px) {
+
+    .wrapper_data {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+
+    .container_data input {
+        width: 70%;
+    }
+}

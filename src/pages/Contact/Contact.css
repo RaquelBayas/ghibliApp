@@ -1,0 +1,104 @@
+.contact_container {
+  background-color: var(--green-primary);
+  width: 40vw;
+  height: fit-content;
+  margin: 3rem auto;
+  padding-bottom: 1rem;
+  border: 3px solid var(--dark-green);
+  box-shadow: 4px 3px 3px 3px var(--secondary);
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper button {
+  background-color: antiquewhite;
+  font-size: 1.2em;
+  width: 10vw;
+}
+
+.contact_form {
+  padding: 0;
+  margin: auto;
+}
+
+.title_contact {
+  color: white;
+  font-family: 'Alegreya SC', serif;
+}
+
+.btns_contact {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.wrapper p {
+  font-weight: 600;
+  font-size: 1.5em;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  justify-content: center;
+  align-items: center;
+}
+
+form input {
+  padding: 0.75rem 1rem;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form label {
+  align-self: flex-start;
+}
+
+form textarea {
+  border-radius: 10px;
+  resize: none;
+  height: 150px;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 0.75rem 1rem;
+  font-size: 1.5em;
+}
+
+form button { 
+  background-color: antiquewhite;
+  font-family: 'Alegreya SC', serif;
+}
+
+.icon {
+  background-color: antiquewhite;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+#icon_portfolio img {
+  width: 32px;
+  height: 32px;
+}
+
+@media screen and (max-width: 430px)  {
+  .contact_container {
+    width: 90vw;
+  }
+
+  form {
+    width: 100%;
+  }
+}

@@ -1,0 +1,24 @@
+button {
+    padding: 12px 45px;
+    font-size: 1.5em;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    box-shadow: 3px 3px 7px 3px rgba(0,0,0,0.75);
+    cursor: pointer;
+  }
+  
+.btn_films {
+    background-color: var(--green-primary) ;
+    padding: 12px 25px;
+    font-size: 14px;
+    box-shadow: none;
+    border-radius: 12px;
+    color: white;
+    box-shadow: 1px 1px 1px 1px #1e2115;
+}
+
+.btn_films:hover {
+    color: white;
+    background-color: #1e2115;
+}

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap');
+
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --green-primary: #688e49;
+  --secondary: #BBC998;
+  --dark-green: #1e2115;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/bc6f6cb9-6713-4cbc-bb38-4b073af300c8/dg0yfm7-0205ccf2-22cc-4a24-bf6b-bdfce1675d03.png/v1/fill/w_1192,h_670/ghibli_background_by_jolie_jelly_by_joliejelly_dg0yfm7-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvYmM2ZjZjYjktNjcxMy00Y2JjLWJiMzgtNGIwNzNhZjMwMGM4XC9kZzB5Zm03LTAyMDVjY2YyLTIyY2MtNGEyNC1iZjZiLWJkZmNlMTY3NWQwMy5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.0m0rHDtvS6CxJpO7P6lt3BIi_gA1Db2iftmSdR3y1Xw');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+

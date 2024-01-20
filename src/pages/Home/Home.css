@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+
+.home_container {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 20vw;
+}
+
+.home_container .wrapper {
+    width: 65vw;
+    height: fit-content;
+
+    margin: auto;
+    background-color: #688e49;
+
+    border-radius: 7px;
+}
+
+.wrapper_logo blockquote {
+    font-size: 1.5em;
+    font-weight: 700;
+    font-family: 'La Belle Aurore', cursive;
+}
+
+.wrapper button {
+    background-color: var(--yellow-color);
+}
+
+@media screen and (max_width: 430px) {
+    .home_container {
+        height: 100vh;
+    }
+}
